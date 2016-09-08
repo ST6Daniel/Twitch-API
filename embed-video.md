@@ -1,6 +1,20 @@
 # Embedding Twitch Live Streams & Videos
 
 
+## Update: very CPU usage resource saving HTML 5 player for Firefox (note no [""] but the new html5 suffix): 
+
+```html
+    <iframe 
+        src=http://player.twitch.tv/?channel={CHANNEL}&html5=true
+        height="720" 
+        width="1280" 
+        frameborder="0" 
+        scrolling="no"
+        allowfullscreen="true">
+    </iframe>
+```
+
+
 ## Non-Interactive Iframe Embed
 ```html
     <iframe 
